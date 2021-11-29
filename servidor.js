@@ -14,7 +14,7 @@ mongoose.connect('mongodb+srv://dbUser:UP.2021@cluster0.ytdh1.mongodb.net/NoTask
     }
 )
 
-app.listen(8000,()=>{
+app.listen(3000,()=>{
     console.log("corriendo en puerto 3000");
 })
 
