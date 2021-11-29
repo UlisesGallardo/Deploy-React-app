@@ -8,7 +8,6 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect('mongodb+srv://dbUser:UP.2021@cluster0.ytdh1.mongodb.net/NoTasks?retryWrites=true&w=majority',
-    //No me funcionó con la promesas
     async(err)=>{
         if(err) throw err;
         console.log("conectado a la base de datos")
